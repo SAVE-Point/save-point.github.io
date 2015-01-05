@@ -1,0 +1,2 @@
+dist:
+	cp -R * dist
