@@ -90,7 +90,7 @@ var backgrounds = {
 };
 
 function styleBackground() {
-    var height = $(window).height();
+    var height = window.innerHeight;
     var cssBackground = _.map(backgrounds, function(img, el) {
         var y = $(el).offset().top-20;
 
@@ -102,7 +102,7 @@ function styleBackground() {
     
     $("html").css('background', cssBackground.join());
     $("html").css('background-color', 'black');
-    $("html").css('background-size', '100%');
+    $("html").css('background-size', window.innerWidth + "px");
     
     $(".save-jump").attr('data-uk-smooth-scroll', "{offset:" + ($("#save-navigator").height()+10) + "}");
 }
