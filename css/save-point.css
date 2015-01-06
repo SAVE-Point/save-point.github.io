@@ -211,19 +211,15 @@ div.header-light {
 @media only screen 
 and (min-device-width : 320px) and (max-device-width:480px) {
   html {
-    font-size:12px;
-  }
-
-  #container {
-    width:320px;
+    font-size:14px;
   }
 
   #save-navigator a {
-    font-size:
     padding-left:0px;
     padding-right:0px;
     margin-left:5px;
     margin-right:5px;
+    font-size:1.5rem;
   }
 
   .actions a {
@@ -232,5 +228,19 @@ and (min-device-width : 320px) and (max-device-width:480px) {
     line-height:15px;
     min-height:15px;
     margin-right:5px;
+  }
+}
+
+@media only screen 
+and (min-device-width : 320px) and (max-device-width:480px) and (orientation:portrait) {
+  #container {
+    width:320px;
+  }
+}
+
+@media only screen 
+and (min-device-width : 320px) and (max-device-width:480px) and (orientation:landscape) {
+  #container {
+    width:480px;
   }
 }
