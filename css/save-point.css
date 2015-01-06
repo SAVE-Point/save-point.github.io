@@ -40,17 +40,17 @@ div#container {
 #save-games {
 }
 
-.save-games-description {
+.description {
   margin-top:20px;
   color:rgb(200, 200, 200);
   font-size:80%;
 }
 
-.save-games-actions {
+.actions {
   margin-top:20px;
 }
 
-.save-games-actions a {
+.actions a {
   margin-right:10px;
 }
 
