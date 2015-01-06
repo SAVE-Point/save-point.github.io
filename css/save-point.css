@@ -123,10 +123,9 @@ div#container {
 
 a {
   text-decoration:none;
+  color:white;
   border-bottom:1px solid grey;
 }
-
-
 
 a:hover, .thumb a:hover {
   text-decoration:none;
@@ -192,3 +191,15 @@ div.header-light {
 }
 
 
+.uk-close-alt {
+  background:black;
+  border:2px solid white;
+}
+
+.img-overlay {
+  border:none;
+}
+
+.img-overlay:hover img {
+  opacity:0.6;
+}
