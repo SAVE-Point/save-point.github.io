@@ -10,8 +10,6 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="bower_components/uikit/css/uikit.min.css">
     
@@ -24,33 +22,11 @@
       
       <script src="js/vendor/modernizr-2.6.2.min.js"></script>
       <script src="bower_components/uikit/js/uikit.min.js"></script>
-      <script src="bower_components/uikit/js/components/sticky.min.js"></script>
-      
+      <script src="bower_components/uikit/js/components/sticky.min.js"></script>      
       <script src="bower_components/underscore/underscore-min.js"></script>
-
   </head>
   <body>
     <canvas id="cover"></canvas>
-    <!--  
-    <nav class="uk-navbar uk-navbar-attached" data-uk-sticky style="z-index:2" id="save-nav">
-    <ul class="uk-navbar-nav uk-hidden-small">
-    <li>
-    <a href="#save-games">GAMES</a>
-    </li>
-    <li>
-    <a href="#save-apps">APPS</a>
-    </li>
-    <li>
-    <a href="#save-about">ABOUT US</a>
-    </li>
-    <li>
-    <a href="/"></a>
-    </li>
-    
-    </ul>
-    
-    </nav>
-    -->
     <div class="uk-container uk-container-center uk-margin-top uk-margin-large-bottom" id="container">
       
       <!--[if lt IE 7]>
@@ -61,28 +37,46 @@
         <div class="brand">
           <span class="heavy">SAVE</span><span class="sep">/</span><span class="light">Point</span>
         </div>
-        <span class="heavy">SAVE</span><span class="sep">/</span><span class="light">Point</span> is a collaboration of astronomers and educators dedicated to developing new, innovative games and educational applications to teach astronomical concepts at all level.
+        <span class="heavy">SAVE</span><span class="sep">/</span><span class="light">Point</span> is a collaboration of astronomers and educators dedicated to developing new, innovative games and educational applications to teach astronomical concepts at all levels.
 
         <div id="save-navigator-container">
           <div id="save-navigator" data-uk-sticky="{animation: 'uk-animation-slide-top', clsactive:'nav-sticky'}">
             <a href="#" data-uk-smooth-scroll class="save-jump" id="save-navigator-home"><i class="uk-icon-home"></i><span class="sep"> ></span></a>
             <a href="#save-games" data-uk-smooth-scroll class="save-jump">GAMES<span class="sep"> ></span></a>
             <a href="#save-apps" data-uk-smooth-scroll class="save-jump">APPS<span class="sep"> ></span></a>
-            <a href="#save-about" data-uk-smooth-scroll class="save-jump">ABOUT US<span class="sep"> ></span></a>
+            <a href="#save-about" data-uk-smooth-scroll class="save-jump">ABOUT&nbsp;US<span class="sep"> ></span></a>
           </div>
         </div>
 
       </div>
 
+      <div class="uk-modal" id="spc-big">
+        <div class="uk-modal-dialog uk-modal-dialog-large uk-modal-dialog-frameless">
+          <a href="" class="uk-modal-close uk-close uk-close-alt"></a>
+          <img src="img/spc-big.jpg">
+        </div>
+      </div>
+      <div class="uk-modal" id="orbits-big">
+        <div class="uk-modal-dialog uk-modal-dialog-large uk-modal-dialog-frameless">
+          <a href="" class="uk-modal-close uk-close uk-close-alt"></a>
+          <img src="img/orbits-big.jpg">
+        </div>
+      </div>
+      <div class="uk-modal" id="systemic-live-big">
+        <div class="uk-modal-dialog uk-modal-dialog-large uk-modal-dialog-frameless">
+          <a href="" class="uk-modal-close uk-close uk-close-alt"></a>
+          <img src="img/systemic-live-big.jpg">
+        </div>
+      </div>
+      
       <a name="save-games"></a>
       <div id="save-games" class="save-section">
-        
         <div class="header-light">Our games</div>
         
         <div class="uk-grid">
           <div class="uk-width-medium-1-3">
-            <a href="http://www.stefanom.org/spc">
-              <img src="img/spc.png" class="uk-thumbnail" width="300">
+            <a class="img-overlay" href="#spc-big" data-uk-modal>
+              <img src="img/spc.jpg" class="uk-thumbnail" width="300">
             </a>
           </div>
           <div class="uk-width-medium-2-3 thumb">      
@@ -92,8 +86,8 @@
     <div class="light">A game of gravity.</div>
 
     <div class="actions" data-uk-margin>
-      <a href="http://www.stefanom.org/spc" class="uk-button uk-button-large uk-button-primary">PLAY</a>
-      <a href="http://www.stefanom.org/spc" class="uk-button uk-button-large uk-button-primary">RESOURCES FOR TEACHERS</a>      
+      <a href="http://www.stefanom.org/spc" class="uk-button uk-button-primary">PLAY</a>
+      <a href="http://www.stefanom.org/spc" class="uk-button uk-button-primary">RESOURCES FOR TEACHERS</a>
     </div>
 
     
@@ -107,8 +101,8 @@
         
         <div class="uk-grid">
           <div class="uk-width-medium-1-3">
-            <a href="http://save-point.herokuapp.com">
-              <img src="img/orbits.jpg" class="uk-thumbnail">
+            <a class="img-overlay" href="#orbits-big" data-uk-modal>
+              <img src="img/orbits.jpg" class="uk-thumbnail" width="300">
             </a>
           </div>
           <div class="uk-width-medium-2-3 thumb">      
@@ -118,8 +112,8 @@
     <div class="light">Help an alien civilization design new planetary systems.</div>
 
     <div class="actions" data-uk-margin>
-      <a href="http://save-point.herokuapp.com" class="uk-button uk-button-large uk-button-primary">PLAY</a>
-      <a href="" class="uk-button uk-button-large uk-button-primary">RESOURCES FOR TEACHERS</a>        
+      <a href="http://save-point.herokuapp.com" class="uk-button uk-button-primary">PLAY</a>
+      <a href="" class="uk-button uk-button-primary">RESOURCES FOR TEACHERS</a>        
     </div>
 
     
@@ -143,8 +137,8 @@
 
         <div class="uk-grid">
           <div class="uk-width-medium-1-3">
-            <a href="www.stefanom.org/systemic-live/">
-              <img src="img/systemic-live.png" class="uk-thumbnail">
+            <a class="img-overlay" href="#systemic-live-big" data-uk-modal>
+              <img src="img/systemic-live.jpg" class="uk-thumbnail" width="300">
             </a>
           </div>
           <div class="uk-width-medium-2-3 thumb">      
@@ -154,9 +148,9 @@
     <div class="light">Discover exoplanets using real astronomical data.</div>
 
     <div class="actions" data-uk-margin>
-      <a href="http://www.stefanom.org/systemic-live" class="uk-button uk-button-large uk-button-primary">OPEN</a>
-      <a href="http://www.stefanom.org/category/systemic-live/" class="uk-button uk-button-large uk-button-primary">TUTORIALS</a>
-      <a href="" class="uk-button uk-button-large uk-button-primary">RESOURCES FOR TEACHERS</a>
+      <a href="http://www.stefanom.org/systemic-live" class="uk-button uk-button-primary">OPEN</a>
+      <a href="http://www.stefanom.org/category/systemic-live/" class="uk-button uk-button-primary">TUTORIALS</a>
+      <a href="" class="uk-button uk-button-primary">RESOURCES FOR TEACHERS</a>
       
     </div>
 
@@ -177,39 +171,50 @@
         <div class="header-light">About Us</div>
         
         <div class="uk-clearfix save-person">
-          <img src="img/stefano.jpg" width="150" class="uk-thumbnail save-person-thumb">
-          <div class="heavy sep">Dr. Stefano Meschiari</div>
+          <img src="img/stefano.jpg" width="250" class="uk-thumbnail save-person-thumb">
+          <div class="heavy link">
+            <a href="http://www.stefanom.org/">
+              Dr. Stefano Meschiari <span class="sep">></span>
+            </a>
+          </div>
           <div>Lead System Engineer</div>
           <div class="actions" data-uk-margin>
-            <a href="http://www.stefanom.org" class="uk-button uk-button-danger uk-button-large">WEBSITE</a>
-            <a href="http://www.stefanom.org/cv/" class="uk-button uk-button-danger uk-button-large">CV</a>
-            <a href="mailto:stefano@astro.as.utexas.edu" class="uk-button uk-button-danger uk-button-large">EMAIL</a>
-          </div>
-          <div class="description">Stefano Meschiari is a W. J. McDonald Postdoctoral Fellow at the University of Texas at Austin. He is the principal investigator and lead programmer &amp; designer of the SAVE/Point collaboration, developing apps & games with a focus on astronomy education. His research focuses in understanding how planetary systems form, discovering new exoplanets, and coming up with new ways to involve the public in the excitement of the exoplanet age. </div>
-        </div>
-
-        <div class="uk-clearfix save-person">
-          <img src="img/randi.png" width="150" class="uk-thumbnail save-person-thumb">
-          <div class="heavy sep">Dr. Randi Ludwig</div>
-          <div>Space Academy Principal</div>
-    <div class="actions" data-uk-margin>
-            <a href="http://www.stefanom.org" class="uk-button uk-button-danger uk-button-large">WEBSITE</a>
-            <a href="http://www.stefanom.org/cv/" class="uk-button uk-button-danger uk-button-large">CV</a>
-            <a href="mailto:stefano@astro.as.utexas.edu" class="uk-button uk-button-danger uk-button-large">EMAIL</a>            
+            <a href="http://www.stefanom.org" class="uk-button uk-button-danger ">WEBSITE</a>
+            <a href="https://www.github.com/stefano-meschiari" class="uk-button uk-button-danger ">GITHUB</a>
+            <a href="http://www.stefanom.org/cv/" class="uk-button uk-button-danger ">CV</a>
+            <a href="mailto:stefano@astro.as.utexas.edu" class="uk-button uk-button-danger ">EMAIL</a>
           </div>
           <div class="description">
-            Aliquam erat volutpat.  Nunc eleifend leo vitae magna.  In id erat non orci commodo lobortis.  Proin neque massa, cursus ut, gravida ut, lobortis eget, lacus.  Sed diam.  Praesent fermentum tempor tellus.  Nullam tempus.  Mauris ac felis vel velit tristique imperdiet.  Donec at pede.  Etiam vel neque nec dui dignissim bibendum.  Vivamus id enim.  Phasellus neque orci, porta a, aliquet quis, semper a, massa.  Phasellus purus.  Pellentesque tristique imperdiet tortor.  Nam euismod tellus id erat.
+            Stefano Meschiari is a W. J. McDonald Postdoctoral Fellow at the University of Texas at Austin. He is the principal investigator and lead programmer &amp; designer of the SAVE/Point collaboration, developing apps & games with a focus on astronomy education. His research focuses in understanding how planetary systems form, discovering new exoplanets, and coming up with new ways to involve the public in the excitement of the exoplanet age.
           </div>
         </div>
 
         <div class="uk-clearfix save-person">
-          <img src="img/joel.jpg" width="150" class="uk-thumbnail save-person-thumb">
-          <div class="heavy sep">Dr. Joel Green</div>
+          <img src="img/randi.jpg" width="250" class="uk-thumbnail save-person-thumb">
+          <div class="heavy link">
+              Dr. Randi Ludwig
+          </div>
+          <div>Space Academy Principal</div>
+    <div class="actions" data-uk-margin>
+            <a href="mailto:randiludwig@utexas.edu" class="uk-button uk-button-danger ">EMAIL</a>            
+          </div>
+          <div class="description">
+            Randi Ludwig is the Assistant Director of UTeach Primary and faculty in the University of Texas at Austin College of Natural Sciences, where she develops hands-on curricula and teaches science courses designed for elementary education majors.  She puts her classroom and curriculum development experience to use in the SAVE/point collaboration by designing learning objectives for game levels, evaluating accessibility for users of many backgrounds, and assessing the effectiveness of game design on user understanding of scientific concepts.
+          </div>
+        </div>
+
+        <div class="uk-clearfix save-person">
+          <img src="img/joel.jpg" width="250" class="uk-thumbnail save-person-thumb">
+          <div class="heavy link">
+            <a href="http://www.pas.rochester.edu/~joel/">
+              Dr. Joel Green <span class="sep">></span>
+            </a>
+          </div>
           <div>Space Orchestra Director</div>
     <div class="actions" data-uk-margin>
-            <a href="http://www.pas.rochester.edu/~joel/" class="uk-button uk-button-danger uk-button-large">WEBSITE</a>
-            <a href="http://www.pas.rochester.edu/~joel/cv_current.pdf" class="uk-button uk-button-danger uk-button-large">CV</a>
-            <a href="mailto:joel@astro.as.utexas.edu" class="uk-button uk-button-danger uk-button-large">EMAIL</a>
+            <a href="http://www.pas.rochester.edu/~joel/" class="uk-button uk-button-danger ">WEBSITE</a>
+            <a href="http://www.pas.rochester.edu/~joel/cv_current.pdf" class="uk-button uk-button-danger ">CV</a>
+            <a href="mailto:joel@astro.as.utexas.edu" class="uk-button uk-button-danger ">EMAIL</a>
           </div>
           <div class="description">
             Joel Green is the Project Scientist in the Office of Public Outreach at Space Telescope Science Institute (STScI), which operates the science mission of the Hubble Space Telescope and James Webb Space Telescope.  Previously he was a Research Associate at the University of Texas at Austin.  He has contributed the original music tracks, storyboard, and assisted in level and app design.

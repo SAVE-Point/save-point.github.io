@@ -1,4 +1,6 @@
 html {
+  width:100%;
+  font-size:30px;
   background-color:black;
   background: url(../img/bg2.jpg) 0px 0px no-repeat;
   background-color:black;  
@@ -8,7 +10,7 @@ html {
 body {
   color:white;
   font-family: "Dosis", "Helvetica Neue", Arial;
-  font-size:18pt;
+  font-size:1rem;
 }
 
 canvas#cover {
@@ -21,7 +23,7 @@ canvas#cover {
   height:100%;
 }
 
-div#container {
+#container {
   z-index:1;
   position:absolute;
   width:900px;
@@ -29,6 +31,7 @@ div#container {
   right:0;
   margin:0 auto;
 }
+
 
 .save-section {
   min-height:400px;
@@ -43,7 +46,7 @@ div#container {
 .description {
   margin-top:20px;
   color:rgb(200, 200, 200);
-  font-size:80%;
+  font-size:0.8rem;
 }
 
 .actions {
@@ -52,6 +55,8 @@ div#container {
 
 .actions a {
   margin-right:10px;
+  font-size:0.8rem;
+  padding:12px;
 }
 
 #save-nav {
@@ -74,7 +79,7 @@ div#container {
 }
 
 .link {
-  font-size:24pt;
+  font-size:1.2rem;
 }
 
 #save-navigator-container {
@@ -82,17 +87,10 @@ div#container {
 }
 
 #save-navigator {
-  font-size:36pt;
+  font-size:1.8rem;
   text-align:center;
 }
 
-#save-navigator a {
-  color:white;
-  padding-left:10px;
-  padding-right:10px;
-  margin-left:10px;
-  margin-right:10px;
-}
 
 
 .nav-sticky {
@@ -112,6 +110,12 @@ div#container {
 
 #save-navigator a {
   border-bottom:none;
+  color:white;
+  padding-left:10px;
+  padding-right:10px;
+  margin-left:10px;
+  margin-right:10px;
+
 }
 
 #save-navigator a:hover {
@@ -123,10 +127,9 @@ div#container {
 
 a {
   text-decoration:none;
+  color:white;
   border-bottom:1px solid grey;
 }
-
-
 
 a:hover, .thumb a:hover {
   text-decoration:none;
@@ -142,7 +145,7 @@ a:hover .sep {
 }
 
 .brand {
-  font-size: 84pt;
+  font-size: 3rem;
 }
 
 .heavy {
@@ -163,7 +166,7 @@ a:hover .sep {
 
 div.header-light {
   font-weight:100;
-  font-size:48pt;
+  font-size:2rem;
   margin-top:50px;
   margin-bottom:40px;
 }
@@ -192,3 +195,57 @@ div.header-light {
 }
 
 
+.uk-close-alt {
+  background:black;
+  border:2px solid white;
+}
+
+.img-overlay {
+  border:none;
+}
+
+.img-overlay:hover img {
+  opacity:0.6;
+}
+
+@media only screen 
+and (min-device-width : 320px) and (max-device-width:480px) {
+  html {
+    font-size:18px;
+  }
+
+  #save-navigator a {
+    padding-left:0px;
+    padding-right:0px;
+    margin-left:5px;
+    margin-right:5px;
+    font-size:1.1rem;
+    border-bottom:1px solid grey;
+  }
+
+  #save-navigator.nav-sticky a {
+    border-bottom:none;
+  }
+
+  .actions a {
+    font-size:0.9rem;
+    padding:5px;
+    line-height:15px;
+    min-height:15px;
+    margin-right:5px;
+  }
+}
+
+@media only screen 
+and (min-device-width : 320px) and (max-device-width:480px) and (orientation:portrait) {
+  #container {
+    width:320px;
+  }
+}
+
+@media only screen 
+and (min-device-width : 320px) and (max-device-width:480px) and (orientation:landscape) {
+  #container {
+    width:480px;
+  }
+}
