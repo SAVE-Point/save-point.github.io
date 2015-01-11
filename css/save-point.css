@@ -145,7 +145,7 @@ a:hover .sep {
 }
 
 .brand {
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 .heavy {
@@ -212,6 +212,10 @@ div.header-light {
 and (min-device-width : 320px) and (max-device-width:480px) {
   html {
     font-size:18px;
+  }
+
+  .brand {
+    font-size:3rem;
   }
 
   #save-navigator a {

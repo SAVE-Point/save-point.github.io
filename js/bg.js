@@ -7,6 +7,7 @@ var dt = 1;
 var spheres = [];
 var $window = $(window);
 var $canvas;
+var canvas;
 var ctx;
 var center = {x : 0, y : 0};
 var k = 0.0025;
@@ -115,15 +116,16 @@ $(document).ready(function() {
 
     // Store jQuery ref. to canvas and canvas context
     $canvas = $("#cover");
-    ctx = $canvas[0].getContext('2d');
-    $canvas[0].style.width = $window.width() + "px";    
-    $canvas[0].style.height = $window.height() + "px";
-    $canvas[0].width = "2000";
-    $canvas[0].height = "2000";
+    canvas = $canvas[0];
+    ctx = canvas.getContext('2d');
+    canvas.style.width = $window.width() + "px";    
+    canvas.style.height = $window.height() + "px";
+    canvas.width = "2000";
+    canvas.height = "2000";
 
 
     // Make massive object follow mouse, or clicks (for mobile)
-    $(document).on("click mousemove", function(e) {
+    $(document).on("touch mousemove", function(e) {
         center.x = e.clientX;
         center.y = e.clientY;
     });
