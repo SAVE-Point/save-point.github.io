@@ -213,10 +213,6 @@ div.header-light {
   border:none;
 }
 
-.img-overlay:hover img {
-  opacity:0.6;
-}
-
 @media only screen 
 and (min-device-width : 320px) and (max-device-width:480px) {
   html {
