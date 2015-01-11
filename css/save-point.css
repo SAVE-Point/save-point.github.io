@@ -5,6 +5,7 @@ html {
   background: url(../img/bg2.jpg) 0px 0px no-repeat;
   background-color:black;  
   background-size: 100%;
+  line-height:1.2;
 }
 
 body {
@@ -145,7 +146,14 @@ a:hover .sep {
 }
 
 .brand {
-  font-size: 4rem;
+  font-size: 3rem;
+  line-height:1;
+  margin-bottom:60px;
+}
+
+.brand-acronym {
+  font-size: 0.8rem;
+  font-variant:small-caps;
 }
 
 .heavy {
@@ -198,6 +206,7 @@ div.header-light {
 .uk-close-alt {
   background:black;
   border:2px solid white;
+  color:white;
 }
 
 .img-overlay {
