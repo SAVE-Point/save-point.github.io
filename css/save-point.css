@@ -2,7 +2,7 @@ html {
   width:100%;
   font-size:30px;
   background-color:black;
-  background: url(../img/bg2.jpg) 0px 0px no-repeat;
+  background: url(../img/bg-top.jpg) 0px 0px no-repeat;
   background-color:black;  
   background-size: 100%;
   line-height:1.2;
@@ -13,6 +13,8 @@ body {
   font-family: "Dosis", "Helvetica Neue", Arial;
   font-size:1rem;
 }
+
+
 
 canvas#cover {
   position:fixed;
@@ -149,6 +151,7 @@ a:hover .sep {
   font-size: 3rem;
   line-height:1;
   margin-bottom:60px;
+  text-shadow:0px 0px 5px black;
 }
 
 .brand-acronym {

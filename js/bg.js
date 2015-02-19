@@ -84,7 +84,7 @@ function nextFrame() {
 }
 
 var backgrounds = {
-    '#save-brand': 'img/bg2.jpg',
+    '#save-brand': 'img/bg-top.jpg',
     '#save-games': 'img/bg-games.jpg',
     '#save-apps': 'img/bg-apps.jpg',
     '#save-about': 'img/bg-about.jpg'
