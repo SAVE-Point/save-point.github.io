@@ -2,7 +2,7 @@
 This repository contains the static content for the [SAVE/Point website](http://save-point.io). The webpage was designed by [Stefano Meschiari](http://www.github.com/stefano-meschiari).
 
 ## Adding images to the kiosk slideshow
-We are installing iPads to several floors in the department building (currently on 13th, more to follow). 
+We are installing iPads to several floors in the department building (currently on 13th floor next to the elevator, more to follow). 
 The iPads display a custom-designed dashboard to launch educational activities and games created and managed by our group
 (you can see the dashboard running in a web browser at http://save-point-dev.herokuapp.com/dashboard/?login=kiosk). 
 
