@@ -1,5 +1,5 @@
-# save-point.github.io
-This repository contains the static content for the SAVE/Point website. The webpage was designed by [Stefano Meschiari](http://www.github.com/stefano-meschiari).
+# [save-point.github.io](http://save-point.io)
+This repository contains the static content for the [SAVE/Point website](http://save-point.io). The webpage was designed by [Stefano Meschiari](http://www.github.com/stefano-meschiari).
 
 ## Adding images to the kiosk slideshow
 We are installing iPads to several floors in the department building (currently on 13th, more to follow). 
