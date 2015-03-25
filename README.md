@@ -14,7 +14,7 @@ Slides are pulled from:
   (1) The HubbleSite and APOD RSS feed, through a custom parser;
   (2) The [kiosk_news.yaml](kiosk_news.yaml) file in this repository.
   
-We welcome members of the UT department to add new images to the slideshow that showcase their latest research! You can add
+We encourage members of the UT department to add new images to the slideshow that showcase their latest research! You can add
 images to the slideshow either by sending us an email to savepoint@astro.as.utexas.edu, with the title of the image (no more than ~10 words), an attribution
 line (e.g. your name and that of coauthors; affiliations; etc.), and the image itself (should be larger than 1024x768). 
 
@@ -27,3 +27,5 @@ entry at the top by following the existing structure of the file. The file is in
 ```
 
 (Note (1) the indentation on the lines; (2) images are only downloaded once, so it will not be pulling down the image from the server at every request.)
+
+To run the screensaver inside your browser, go to http://save-point-dev.herokuapp.com/apps/screensaver/; to see a scrollable list of images currently loaded, go to http://save-point-dev.herokuapp.com/apps/screensaver/?showall=true.
