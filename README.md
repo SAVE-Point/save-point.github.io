@@ -28,4 +28,4 @@ entry at the top by following the existing structure of the file. The file is in
 
 (Note (1) the indentation on the lines; (2) images are only downloaded once, so it will not be pulling down the image from the server at every request.)
 
-To run the screensaver inside your browser, go to http://save-point-kiosk.herokuapp.com/screensaver/; to see a scrollable list of images currently loaded, go to http://save-point-kiosk.herokuapp.com/screensaver/?showall=true.
+To run the screensaver inside your browser, go to http://save-point-kiosk.herokuapp.com/screensaver/?noredirect=true; to see a scrollable list of images currently loaded, go to http://save-point-kiosk.herokuapp.com/screensaver/?showall=true.
