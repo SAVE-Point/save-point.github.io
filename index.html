@@ -3,250 +3,313 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>SAVE/Point &mdash; The Society for Astronomy Visualization and Education</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>SAVE/Point &mdash; The Society for Astronomy Visualization and Education</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="bower_components/uikit/css/uikit.min.css">
-    
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/save-point.css?v=2">
-    <link href='http://fonts.googleapis.com/css?family=Dosis:400,500,300,200,100,700,900' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Nobile:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-      
-      <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-      <script src="bower_components/uikit/js/uikit.min.js"></script>
-      <script src="bower_components/uikit/js/components/sticky.min.js"></script>      
-      <script src="bower_components/underscore/underscore-min.js"></script>
-      <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-47960829-2', 'auto');
-  ga('send', 'pageview');
-      </script>
-  </head>
-  <body>
-    <canvas id="cover"></canvas>
-    <div class="uk-container uk-container-center uk-margin-top uk-margin-large-bottom" id="container">
-      
-      <!--[if lt IE 7]>
-      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-      <![endif]-->
-
-      <div id="save-brand" class="save-section">
-        <div class="brand">
-          <span class="heavy">SAVE</span><span class="sep">/</span><span class="light">Point</span>
-          <div class="brand-acronym">
-            Society for Astronomy Visualization and Education
-          </div>
-        </div>
-        <span class="heavy">SAVE</span><span class="sep">/</span><span class="light">Point</span> is a collaboration of astronomers and educators dedicated to developing new, innovative games and educational applications to teach astronomical concepts at all levels.
-
-        <div id="save-navigator-container">
-          <div id="save-navigator" data-uk-sticky="{animation: 'uk-animation-slide-top', clsactive:'nav-sticky'}">
-            <a href="#" data-uk-smooth-scroll class="save-jump" id="save-navigator-home"><i class="uk-icon-home"></i><span class="sep"> ></span></a>
-            <a href="#save-games" data-uk-smooth-scroll class="save-jump">GAMES<span class="sep"> ></span></a>
-            <a href="#save-apps" data-uk-smooth-scroll class="save-jump">APPS<span class="sep"> ></span></a>
-            <a href="#save-about" data-uk-smooth-scroll class="save-jump">ABOUT&nbsp;US<span class="sep"> ></span></a>
-          </div>
-        </div>
-
-      </div>
-
-      <div class="uk-modal" id="spc-big">
-        <div class="uk-modal-dialog uk-modal-dialog-large uk-modal-dialog-frameless">
-          <a href="" class="uk-modal-close uk-close uk-close-alt"></a>
-          <img src="img/spc-big.jpg">
-        </div>
-      </div>
-      <div class="uk-modal" id="orbits-big">
-        <div class="uk-modal-dialog uk-modal-dialog-large uk-modal-dialog-frameless">
-          <a href="" class="uk-modal-close uk-close uk-close-alt"></a>
-          <img src="img/orbits-big.jpg">
-        </div>
-      </div>
-      <div class="uk-modal" id="systemic-live-big">
-        <div class="uk-modal-dialog uk-modal-dialog-large uk-modal-dialog-frameless">
-          <a href="" class="uk-modal-close uk-close uk-close-alt"></a>
-          <img src="img/systemic-live-big.jpg">
-        </div>
-      </div>
-      
-      <a name="save-games"></a>
-      <div id="save-games" class="save-section">
-        <div class="header-light">Our games</div>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="bower_components/uikit/css/uikit.min.css">
         
-        <div class="uk-grid">
-          <div class="uk-width-medium-1-3">
-            <a class="img-overlay" href="#spc-big" data-uk-modal>
-              <img src="img/spc.jpg" class="uk-thumbnail" width="300">
-            </a>
-          </div>
-          <div class="uk-width-medium-2-3 thumb">      
-            <div class="heavy link"><a href="http://www.stefanom.org/spc">
-              Super Planet Crash <span class="sep">></span></a></div>
-    </a>
-    <div class="light">A game of gravity.</div>
-
-    <div class="actions" data-uk-margin>
-      <a href="http://www.stefanom.org/spc" class="uk-button uk-button-primary">PLAY</a>
-      <!-- <a href="http://www.stefanom.org/spc" class="uk-button uk-button-primary">RESOURCES FOR TEACHERS</a> -->
-    </div>
-
-    
-    <div class="description">
-      Super Planet Crash is a browser-based gravity game where players create planetary systems and watch them evolve. The more crowded and chaotic the system, the better! Super Planet Crash has been played more than 12,000,000 times, and it has been featured in articles on <a href="http://www.theverge.com/2014/4/15/5616400/stefano-meschiari-university-of-texas-free-online-solar-system-simulation" target="_blank">The Verge</a>, <a href="http://www.huffingtonpost.com/2014/04/10/super-planet-crash-game_n_5120708.html?utm_hp_ref=science">Huffington Post</a>, <a href="http://io9.com/a-game-that-lets-you-build-or-destroy-your-own-sola-1560740605">io9</a>, <a href="http://www.space.com/25402-super-planet-crash-video-game.html">Space.com</a>,  <a href="http://motherboard.vice.com/read/build-and-destroy-your-own-solar-system-with-this-awesome-exoplanet-game?trk_source=homepage-rotator2">VICE</a>, &amp; <a href="http://www.stefanom.org/outreach" target="_blank">others</a>.
-    </div>
-          </div>
-        </div>
-
-        <div class="grid-divider"></div>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/save-point.css?v=2">
+        <link href='http://fonts.googleapis.com/css?family=Dosis:400,500,300,200,100,700,900' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Nobile:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
         
-        <div class="uk-grid">
-          <div class="uk-width-medium-1-3">
-            <a class="img-overlay" href="#orbits-big" data-uk-modal>
-              <img src="img/orbits.jpg" class="uk-thumbnail" width="300">
-            </a>
-          </div>
-          <div class="uk-width-medium-2-3 thumb">      
-            <div class="heavy link"><a href="http://save-point.herokuapp.com">
-              Orbits <span class="sep">></span></a></div>
-    </a>
-    <div class="light">Help an alien civilization design new planetary systems.</div>
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="bower_components/uikit/js/uikit.min.js"></script>
+        <script src="bower_components/uikit/js/components/sticky.min.js"></script>      
+        <script src="bower_components/underscore/underscore-min.js"></script>
+        <script>
+         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+         })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-    <div class="actions" data-uk-margin>
-      <a href="http://save-point.herokuapp.com" class="uk-button uk-button-primary">PLAY  <div class="uk-badge uk-badge-danger">BETA</div></a>
-      <!-- <a href="" class="uk-button uk-button-primary">RESOURCES FOR TEACHERS</a>-->
-    </div>
+         ga('create', 'UA-47960829-2', 'auto');
+         ga('send', 'pageview');
+        </script>
+    </head>
+    <body>
+        <canvas id="cover"></canvas>
+        <div class="uk-container uk-container-center uk-margin-top uk-margin-large-bottom" id="container">
+            
+            <!--[if lt IE 7]>
+                 <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+                 <![endif]-->
 
-    
-    <div class="description">
-      You are the newest employee of the planet-building company Nova Planetia, working for your short-tempered supervisor, Big Boss Reaz-7. Prove yourself worthy of a promotion by designing planetary systems to the exact specifications of your fickle customers.
-      
-    </div>
-          </div>
-          
-          
+            <div id="save-brand" class="save-section">
+                <div class="brand">
+                    <span class="heavy">SAVE</span><span class="sep">/</span><span class="light">Point</span>
+                    <div class="brand-acronym">
+                        <span class="sep">S</span>ociety for <span class="sep">A</span>stronomy <span class="sep">V</span>isualization and <span class="sep">E</span>ducation
+                    </div>
+                </div>
+                <span class="heavy">SAVE</span><span class="sep">/</span><span class="light">Point</span> is a collaboration of astronomers and educators dedicated to developing new, innovative games and educational applications to teach astronomical concepts at all levels.
+
+                <div id="save-navigator-container">
+                    <div id="save-navigator" data-uk-sticky="{animation: 'uk-animation-slide-top', clsactive:'nav-sticky'}">
+                        <a href="#" data-uk-smooth-scroll class="save-jump" id="save-navigator-home"><i class="uk-icon-home"></i><span class="sep"> ></span></a>
+                        <a href="#save-games" data-uk-smooth-scroll class="save-jump">GAMES<span class="sep"> ></span></a>
+                        <a href="#save-apps" data-uk-smooth-scroll class="save-jump">APPS<span class="sep"> ></span></a>
+                        <a href="#save-about" data-uk-smooth-scroll class="save-jump">ABOUT&nbsp;US<span class="sep"> ></span></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="uk-modal" id="spc-big">
+                <div class="uk-modal-dialog uk-modal-dialog-large uk-modal-dialog-frameless">
+                    <a href="" class="uk-modal-close uk-close uk-close-alt"></a>
+                    <img src="img/spc-big.jpg">
+                </div>
+            </div>
+            <div class="uk-modal" id="orbits-big">
+                <div class="uk-modal-dialog uk-modal-dialog-large uk-modal-dialog-frameless">
+                    <a href="" class="uk-modal-close uk-close uk-close-alt"></a>
+                    <img src="img/orbits-big.jpg">
+                </div>
+            </div>
+            <div class="uk-modal" id="systemic-live-big">
+                <div class="uk-modal-dialog uk-modal-dialog-large uk-modal-dialog-frameless">
+                    <a href="" class="uk-modal-close uk-close uk-close-alt"></a>
+                    <img src="img/systemic-live-big.jpg">
+                </div>
+            </div>
+            <div class="uk-modal" id="gravitykit-big">
+                <div class="uk-modal-dialog uk-modal-dialog-large uk-modal-dialog-frameless">
+                    <a href="" class="uk-modal-close uk-close uk-close-alt"></a>
+                    <img src="img/gravitykit-big.jpg">
+                </div>
+            </div>
+            <a name="save-games"></a>
+            <div id="save-games" class="save-section">
+                <div class="header-light">Our games</div>
+                
+                <div class="uk-grid">
+                    <div class="uk-width-medium-1-3">
+                        <a class="img-overlay" href="#spc-big" data-uk-modal>
+                            <img src="img/spc.jpg" class="uk-thumbnail" width="300">
+                        </a>
+                    </div>
+                    <div class="uk-width-medium-2-3 thumb">      
+                        <div class="heavy link"><a href="http://www.stefanom.org/spc">
+                            Super Planet Crash <span class="sep">&gt;</span></a></div>
+                 </a>
+                 <div class="light">A game of gravity.</div>
+
+                 <div class="actions" data-uk-margin>
+                     <a href="http://www.stefanom.org/spc" class="uk-button uk-button-primary">PLAY</a>
+                     <!-- <a href="http://www.stefanom.org/spc" class="uk-button uk-button-primary">RESOURCES FOR TEACHERS</a> -->
+                 </div>
+
+                 
+                 <div class="description">
+                     Super Planet Crash is a browser-based gravity game where players create planetary systems and watch them evolve. The more crowded and chaotic the system, the better! Super Planet Crash has been played more than 12,000,000 times, and it has been featured in articles on <a href="http://www.theverge.com/2014/4/15/5616400/stefano-meschiari-university-of-texas-free-online-solar-system-simulation" target="_blank">The Verge</a>, <a href="http://www.huffingtonpost.com/2014/04/10/super-planet-crash-game_n_5120708.html?utm_hp_ref=science">Huffington Post</a>, <a href="http://io9.com/a-game-that-lets-you-build-or-destroy-your-own-sola-1560740605">io9</a>, <a href="http://www.space.com/25402-super-planet-crash-video-game.html">Space.com</a>,  <a href="http://motherboard.vice.com/read/build-and-destroy-your-own-solar-system-with-this-awesome-exoplanet-game?trk_source=homepage-rotator2">VICE</a>, &amp; <a href="http://www.stefanom.org/outreach" target="_blank">others</a>.
+                 </div>
+                    </div>
+                </div>
+
+                <div class="grid-divider"></div>
+                
+                <div class="uk-grid">
+                    <div class="uk-width-medium-1-3">
+                        <a class="img-overlay" href="#orbits-big" data-uk-modal>
+                            <img src="img/orbits.jpg" class="uk-thumbnail" width="300">
+                        </a>
+                    </div>
+                    <div class="uk-width-medium-2-3 thumb">      
+                        <div class="heavy link"><a href="http://save-point.herokuapp.com">
+                            Orbits <span class="sep">&gt;</span></a></div>
+                 </a>
+                 <div class="light">Help an alien civilization design new planetary systems.</div>
+
+                 <div class="actions" data-uk-margin>
+                     <a href="http://save-point.herokuapp.com" class="uk-button uk-button-primary">PLAY  <div class="uk-badge uk-badge-danger">BETA</div></a>
+                     <!-- <a href="" class="uk-button uk-button-primary">RESOURCES FOR TEACHERS</a>-->
+                 </div>
+
+                 
+                 <div class="description">
+                     You are the newest employee of the planet-building company Nova Planetia, working for your short-tempered supervisor, Big Boss Reaz-7. Prove yourself worthy of a promotion by designing planetary systems to the exact specifications of your fickle customers.
+                     
+                 </div>
+                    </div>
+                    
+                    
+                </div>
+
+                <div class="grid-divider"></div>
+
+                
+            </div>
+
+            <a name="save-apps"></a>
+            <div id="save-apps" class="save-section">
+                <div class="header-light">Our apps</div>
+
+                <div class="uk-grid">
+                    <div class="uk-width-medium-1-3">
+                        <a class="img-overlay" href="#systemic-live-big" data-uk-modal>
+                            <img src="img/systemic-live.jpg" class="uk-thumbnail" width="300">
+                        </a>
+                    </div>
+                    <div class="uk-width-medium-2-3 thumb">      
+                        <div class="heavy link">
+                            <a href="http://www.stefanom.org/systemic-live">
+                                Systemic Live <span class="sep">&gt;</span>
+                            </a>
+                        </div>
+                        <div class="light">Discover exoplanets using real astronomical data.</div>
+
+                        <div class="actions" data-uk-margin>
+                            <a href="http://www.stefanom.org/systemic-live" class="uk-button uk-button-primary">OPEN</a>
+                            <a href="http://www.stefanom.org/category/systemic-live/" class="uk-button uk-button-primary">TUTORIALS</a>
+                            <!--  <a href="" class="uk-button uk-button-primary">RESOURCES FOR TEACHERS</a> -->
+                            
+                        </div>
+
+                        
+                        <div class="description">
+                            Systemic Live is a web application that lets you visualize and analyze real astronomical data from telescopes all around the world in order to discover the signature of a planetary system.  Systemic Live is a great educational tool for students, teachers, and enthusiasts interested in exoplanets and data analysis. It has become part of the curricula for undergraduate and graduate classes at several US and world institutions of higher education (<a href="http://www.stefanom.org/systemic-live/#edu">see testimonials here</a>).
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+                <div class="uk-grid">
+                    <div class="uk-width-medium-1-3">
+                        <a class="img-overlay" href="#gravitykit-big" data-uk-modal>
+                            <img src="img/gravitykit.jpg" class="uk-thumbnail" width="300">
+                        </a>
+                    </div>
+                    <div class="uk-width-medium-2-3 thumb">      
+                        <div class="heavy link">
+                            <a href="http://save-point.herokuapp.com/gravitykit">
+                                GravityKit <span class="sep">&gt;</span>
+                            </a>
+                        </div>
+                        <div class="light">See how gravity affects the motion of planets</div>
+
+                        <div class="actions" data-uk-margin>
+                            <a href="http://save-point.herokuapp.com/gravitykit" class="uk-button uk-button-primary">OPEN</a>
+                            <!--  <a href="" class="uk-button uk-button-primary">RESOURCES FOR TEACHERS</a> -->
+                            
+                        </div>
+
+                        
+                        <div class="description">
+                            GravityKit is a web app for building solar systems. With GravityKit, you can set up
+                            the position, velocity and mass of each body and observe their evolution under the influence
+                            of their mutual gravitational pull. Each planetary system can be saved for later use, or
+                            shared online. It is especially suitable for use as a classroom activity or demo, or as an
+                            interactive gravity simulator for all ages.
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+
+                
+            </div>
+
+            <a name="save-about"></a>
+            <div id="save-about" class="save-section">
+                <div class="header-light">About us</div>
+                <div class="description">
+                    The <span class="heavy">SAVE</span><span class="sep">/</span><span class="light">Point</span> team comprises astronomers, educators, and teachers. Our mission is creating fun, engaging and scientifically accurate educational activities that are widely accessible and on multiple computing platforms.
+                    <p>We are committed to delivering a new educational platform that will <ul><li>engage students, educators and astronomy enthusiasts through an imaginative gamified experience that rewards learning</li><li>provide a hands-on "virtual lab" where users can develop an intuition for astronomical concepts and the scientific method</li><li>supply educators with an array of customizable educational components</li><li>provide a testbed for future assessments of the effectiveness of educational activities with game elements in STEM education.</li></ul> </p>
+                    <p>
+                        Our work is currently funded by the <a href="https://www.utexas.edu/cio/itgovernance/lift">Longhorn Innovation Fund for Technology</a> for 2014-2015.
+                    </p>
+                    <div class="actions">
+                        <a href="mailto:savepoint@astro.as.utexas.edu" class="uk-button uk-button-danger ">CONTACT US</a>
+                    </div>
+                </div>
+                
+                <div class="header-light">The team</div>
+                
+                <div class="uk-clearfix save-person">
+                    <img src="img/stefano.jpg" width="250" class="uk-thumbnail save-person-thumb">
+                    <div class="heavy link">
+                        <a href="http://www.stefanom.org/">
+                            Dr. Stefano Meschiari <span class="sep">&gt;</span>
+                        </a>
+                    </div>
+                    <div>Lead System Engineer</div>
+                    <div class="actions" data-uk-margin>
+                        <a href="http://www.stefanom.org" class="uk-button uk-button-danger ">WEBSITE</a>
+                        <a href="https://www.github.com/stefano-meschiari" class="uk-button uk-button-danger ">GITHUB</a>
+                        <a href="http://www.stefanom.org/cv/" class="uk-button uk-button-danger ">CV</a>
+                        <a href="mailto:stefano@astro.as.utexas.edu" class="uk-button uk-button-danger ">EMAIL</a>
+                    </div>
+                    <div class="description">
+                        Stefano Meschiari is a W. J. McDonald Postdoctoral Fellow at the University of Texas at Austin. He is the principal investigator and lead programmer and designer of the SAVE/Point collaboration, developing apps and games with a focus on astronomy education. His research focuses in understanding how planetary systems form, discovering new exoplanets, and coming up with new ways to involve the public in the excitement of the exoplanet age.
+                    </div>
+                </div>
+
+                <div class="uk-clearfix save-person">
+                    <img src="img/randi.jpg" width="250" class="uk-thumbnail save-person-thumb">
+                    <div class="heavy link">
+                        Dr. Randi Ludwig
+                    </div>
+                    <div>Space Academy Principal</div>
+                    <div class="actions" data-uk-margin>
+                        <a href="mailto:randiludwig@utexas.edu" class="uk-button uk-button-danger ">EMAIL</a>            
+                    </div>
+                    <div class="description">
+                        Randi Ludwig is the Assistant Director of UTeach Primary and faculty in the University of Texas at Austin College of Natural Sciences, where she develops hands-on curricula and teaches science courses designed for elementary education majors.  She puts her classroom and curriculum development experience to use in the SAVE/point collaboration by designing learning objectives for game levels, evaluating accessibility for users of many backgrounds, and assessing the effectiveness of game design on user understanding of scientific concepts.
+                    </div>
+                </div>
+
+                <div class="uk-clearfix save-person">
+                    <img src="img/joel.jpg" width="250" class="uk-thumbnail save-person-thumb">
+                    <div class="heavy link">
+                        <a href="http://www.pas.rochester.edu/~joel/">
+                            Dr. Joel Green <span class="sep">&gt;</span>
+                        </a>
+                    </div>
+                    <div>Space Orchestra Director</div>
+                    <div class="actions" data-uk-margin>
+                        <a href="http://www.pas.rochester.edu/~joel/" class="uk-button uk-button-danger ">WEBSITE</a>
+                        <a href="http://www.pas.rochester.edu/~joel/cv_current.pdf" class="uk-button uk-button-danger ">CV</a>
+                        <a href="mailto:joel@astro.as.utexas.edu" class="uk-button uk-button-danger ">EMAIL</a>
+                    </div>
+                    <div class="description">
+                        Joel Green is the Project Scientist in the Office of Public Outreach at Space Telescope Science Institute (STScI), which operates the science mission of the Hubble Space Telescope and James Webb Space Telescope.  Previously he was a Research Associate at the University of Texas at Austin.  He contributes the original music tracks, story, and assists in level and app design.
+                    </div>
+                </div>
+
+            </div>
+            <div class="header-light">Collaborators</div>
+            <div class="uk-grid">
+                <div class="uk-width-1-3">
+                    <img src="img/irina.jpg" width="250" class="uk-thumbnail save-person-thumb uk-align-center">
+                    <div class="heavy">
+                            Dr. Irina Marinova
+                    </div>
+                    <div class="description">
+                        Irina Marinova is an adjunct professor of physics at Southwestern University. She has a passion for astronomy education and loves working with K-12 students and teachers. She is working to bring the game apps to public venues in the community.
+                    </div>
+                </div>
+            </div>
         </div>
-
-        <div class="grid-divider"></div>
-
-        
-      </div>
-
-      <a name="save-apps"></a>
-      <div id="save-apps" class="save-section">
-        <div class="header-light">Our apps</div>
-
-        <div class="uk-grid">
-          <div class="uk-width-medium-1-3">
-            <a class="img-overlay" href="#systemic-live-big" data-uk-modal>
-              <img src="img/systemic-live.jpg" class="uk-thumbnail" width="300">
-            </a>
-          </div>
-          <div class="uk-width-medium-2-3 thumb">      
-            <div class="heavy link"><a href="http://www.stefanom.org/systemic-live">
-              Systemic Live <span class="sep">></span></a></div>
-    </a>
-    <div class="light">Discover exoplanets using real astronomical data.</div>
-
-    <div class="actions" data-uk-margin>
-      <a href="http://www.stefanom.org/systemic-live" class="uk-button uk-button-primary">OPEN</a>
-      <a href="http://www.stefanom.org/category/systemic-live/" class="uk-button uk-button-primary">TUTORIALS</a>
-      <!--  <a href="" class="uk-button uk-button-primary">RESOURCES FOR TEACHERS</a> -->
-      
-    </div>
-
-    
-    <div class="description">
-      Systemic Live is a web application that lets you visualize and analyze real astronomical data from telescopes all around the world in order to discover the signature of a planetary system.  Systemic Live is a great educational tool for students, teachers, and enthusiasts interested in exoplanets and data analysis. It has become part of the curricula for undergraduate and graduate classes at several US and world institutions of higher education (<a href="http://www.stefanom.org/systemic-live/#edu">see testimonials here</a>).
-    </div>
-          </div>
-          
-          
         </div>
-
-        
-      </div>
-
-      <a name="save-about"></a>
-      <div id="save-about" class="save-section">
-        <div class="header-light">About us</div>
-        
-        <div class="uk-clearfix save-person">
-          <img src="img/stefano.jpg" width="250" class="uk-thumbnail save-person-thumb">
-          <div class="heavy link">
-            <a href="http://www.stefanom.org/">
-              Dr. Stefano Meschiari <span class="sep">></span>
-            </a>
-          </div>
-          <div>Lead System Engineer</div>
-          <div class="actions" data-uk-margin>
-            <a href="http://www.stefanom.org" class="uk-button uk-button-danger ">WEBSITE</a>
-            <a href="https://www.github.com/stefano-meschiari" class="uk-button uk-button-danger ">GITHUB</a>
-            <a href="http://www.stefanom.org/cv/" class="uk-button uk-button-danger ">CV</a>
-            <a href="mailto:stefano@astro.as.utexas.edu" class="uk-button uk-button-danger ">EMAIL</a>
-          </div>
-          <div class="description">
-            Stefano Meschiari is a W. J. McDonald Postdoctoral Fellow at the University of Texas at Austin. He is the principal investigator and lead programmer and designer of the SAVE/Point collaboration, developing apps and games with a focus on astronomy education. His research focuses in understanding how planetary systems form, discovering new exoplanets, and coming up with new ways to involve the public in the excitement of the exoplanet age.
-          </div>
-        </div>
-
-        <div class="uk-clearfix save-person">
-          <img src="img/randi.jpg" width="250" class="uk-thumbnail save-person-thumb">
-          <div class="heavy link">
-              Dr. Randi Ludwig
-          </div>
-          <div>Space Academy Principal</div>
-    <div class="actions" data-uk-margin>
-            <a href="mailto:randiludwig@utexas.edu" class="uk-button uk-button-danger ">EMAIL</a>            
-          </div>
-          <div class="description">
-            Randi Ludwig is the Assistant Director of UTeach Primary and faculty in the University of Texas at Austin College of Natural Sciences, where she develops hands-on curricula and teaches science courses designed for elementary education majors.  She puts her classroom and curriculum development experience to use in the SAVE/point collaboration by designing learning objectives for game levels, evaluating accessibility for users of many backgrounds, and assessing the effectiveness of game design on user understanding of scientific concepts.
-          </div>
-        </div>
-
-        <div class="uk-clearfix save-person">
-          <img src="img/joel.jpg" width="250" class="uk-thumbnail save-person-thumb">
-          <div class="heavy link">
-            <a href="http://www.pas.rochester.edu/~joel/">
-              Dr. Joel Green <span class="sep">></span>
-            </a>
-          </div>
-          <div>Space Orchestra Director</div>
-    <div class="actions" data-uk-margin>
-            <a href="http://www.pas.rochester.edu/~joel/" class="uk-button uk-button-danger ">WEBSITE</a>
-            <a href="http://www.pas.rochester.edu/~joel/cv_current.pdf" class="uk-button uk-button-danger ">CV</a>
-            <a href="mailto:joel@astro.as.utexas.edu" class="uk-button uk-button-danger ">EMAIL</a>
-          </div>
-          <div class="description">
-            Joel Green is the Project Scientist in the Office of Public Outreach at Space Telescope Science Institute (STScI), which operates the science mission of the Hubble Space Telescope and James Webb Space Telescope.  Previously he was a Research Associate at the University of Texas at Austin.  He contributes the original music tracks, story, and assists in level and app design.
-          </div>
-        </div>
-
-      </div>
-
-    </div></div>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/bg.js?v=2"></script>
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-    <script>
-     (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-                                                             function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-                            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-                            e.src='//www.google-analytics.com/analytics.js';
-                            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-     ga('create','UA-XXXXX-X');ga('send','pageview');
-    </script>
-  </body>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/bg.js?v=2"></script>
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+         (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+             function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+             e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+             e.src='//www.google-analytics.com/analytics.js';
+             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+         ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+    </body>
 </html>
