@@ -207,14 +207,29 @@ div.header-light {
 
 
 .uk-close-alt {
-  background:black;
   border:2px solid white;
-  color:white;
+  color:black !important;
+  background: white;
 }
 
 .img-overlay {
   border:none;
 }
+
+.uk-modal-dialog {
+  color:black;
+  font-family:"Helvetica Neue", "Helvetica", Arial;
+}
+
+.uk-modal-dialog li {
+  margin:20px;
+}
+
+.uk-modal-dialog a {
+  color:rgb(102, 204, 255);
+  font-weight:bold;
+}
+
 
 @media only screen 
 and (min-device-width : 320px) and (max-device-width:480px) {
@@ -247,6 +262,8 @@ and (min-device-width : 320px) and (max-device-width:480px) {
     margin-right:5px;
   }
 }
+
+
 
 @media only screen 
 and (min-device-width : 320px) and (max-device-width:480px) and (orientation:portrait) {
