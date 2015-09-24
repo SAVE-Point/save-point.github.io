@@ -1,18 +1,51 @@
-- title: Register at bashsymposium.org
-  img: http://save-point.io/extras/bashfest.jpg
-  attrib:
-- title: Register at bashsymposium.org
-  img: http://save-point.io/extras/bashfest.jpg
-  attrib:
-- title: Register at bashsymposium.org
-  img: http://save-point.io/extras/bashfest.jpg
-  attrib:
-- title: Register at bashsymposium.org
-  img: http://save-point.io/extras/bashfest.jpg
-  attrib:
-- title: Register at bashsymposium.org
-  img: http://save-point.io/extras/bashfest.jpg
-  attrib:
+- title: Hubble Zooms in on Shrapnel from an Exploded Star
+  img: http://imgsrc.hubblesite.org/hu/db/images/hs-2015-29-a-xlarge_web.jpg
+  attrib: NASA, ESA, and the Hubble Heritage Team (STScI/AURA)
+
+- title: Hubble Sees a Galactic Sunflower (M63)
+  img: http://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/hubble_friday_09102015.jpg
+  attrib: ESA/Hubble & NASA
+  
+- title: Saturn From the Night Side
+  img: http://photojournal.jpl.nasa.gov/jpeg/PIA18333.jpg
+  attrib: NASA/Cassini
+
+- title: Eclipse Totality over Sassendalen
+  img: http://www.rmg.co.uk/sites/default/files/s05_lj_1300.jpg
+  attrib: Luc Jamet, Insight Astronomer Photographer of the Year
+
+- title: Huge Prominence Lift-off 
+  img: http://www.rmg.co.uk/sites/default/files/os03_pp_1100.jpg
+  attrib: Paolo Porcellana, Insight Astronomer Photographer of the Year
+  
+- title: Huge Prominence Lift-off 
+  img: http://www.rmg.co.uk/sites/default/files/os03_pp_1100.jpg
+  attrib: Paolo Porcellana, Insight Astronomer Photographer of the Year
+  
+  
+- title: Stellar Orbits in the Central Parsec of the Galaxy
+  img: https://d262ilb51hltx0.cloudfront.net/max/1600/1*LV0gcKGH8MQ8L_gXacm3jA.gif
+  attrib: Andrea Ghez et al. / KECK / UCLA Galactic Center Group
+
+- title: The Ghost of a Dying Star - The planetary nebula ESO 378-1
+  img: http://cdn.eso.org/images/screen/eso1532a.jpg
+  attrib: ESO
+
+- title: The Center of the Milky Way (Near-Infrared)
+  img: http://cdn.eso.org/images/large/eso0846a.jpg
+  attrib: ESO/S. Gillessen et al.
+
+- title: View of Aurora Borealis from ISS
+  img: http://i.imgur.com/SmuLa1u.gif
+  attrib: NASA
+
+- title: View of Aurora Borealis from ISS
+  img: http://i.imgur.com/SmuLa1u.gif
+  attrib: NASA
+
+- title: View of Aurora Borealis from ISS
+  img: http://i.imgur.com/SmuLa1u.gif
+  attrib: NASA
   
 - title: Texas Astronomers Help Find The Older, Bigger Cousin of Earth
   img: https://mcdonaldobservatory.org/sites/default/files/images/news/gallery/452b_ArtistConcept.jpg
@@ -46,30 +79,3 @@
   img: http://mcdonaldobservatory.org/sites/default/files/images/news/gallery/CANDELSfield_small.jpg
   attrib: McDonald Observatory Press Release &mdash; http://mcdonaldobservatory.org
   
-- title: Horsehead Nebula and Star Formation Seen in Infrared Light
-  img: http://imgsrc.hubblesite.org/hu/db/images/hs-2013-12-a-large_web.jpg
-  attrib: NASA, ESA, and the Hubble Heritage Team &mdash; http://hubblesite.org
-  
-- title: Two Galaxies Caught in Mid-Collision
-  img: http://imgsrc.hubblesite.org/hu/db/images/hs-2011-11-a-large_web.jpg
-  attrib: NASA, ESA, and the Hubble Heritage Team &mdash; http://hubblesite.org
-  
-- title: Death of a Sun-Like Star Seen in the Cat's Eye Nebula
-  img: http://imgsrc.hubblesite.org/hu/db/images/hs-2004-27-a-large_web.jpg
-  attrib: NASA, ESA, and the Hubble Heritage Team &mdash; http://hubblesite.org
-  
-- title: Hubble View of the Sombrero Galaxy
-  img: http://imgsrc.hubblesite.org/hu/db/images/hs-2003-28-a-large_web.jpg
-  attrib: NASA, ESA, and the Hubble Heritage Team &mdash; http://hubblesite.org
-  
-- title: Wispy Carina Nebula Reveals Both Birth and Death of Stars
-  img: http://imgsrc.hubblesite.org/hu/db/images/hs-2007-16-a-large_web.jpg
-  attrib: NASA, ESA, and the Hubble Heritage Team &mdash; http://hubblesite.org
-  
-- title: Infant Stars in the Large Magellanic Cloud
-  img: http://imgsrc.hubblesite.org/hu/db/images/hs-2007-04-a-large_web.jpg
-  attrib: NASA, ESA, and the Hubble Heritage Team &mdash; http://hubblesite.org
-  
-- title: Hubble Space Telescope Orbits the Earth
-  img: http://hubblesite.org/the_telescope/hubble_essentials/graphics/telescope_essentials_introduction1_lg.jpg
-  attrib: NASA, ESA, and the Hubble Heritage Team &mdash; http://hubblesite.org
