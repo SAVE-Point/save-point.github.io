@@ -1,10 +1,26 @@
+- title: NASA’s K2 Finds Dead Star Vaporizing a Mini Planet
+  attrib: CfA/Mark A. Garlick
+  img: http://www.nasa.gov/sites/default/files/thumbnails/image/disintegrating_asteroid.jpg
+  
+- title: Kepler-452b: The First Earth-Sized Planet in the Habitable Zone of a Sun-like Star
+  attrib: NASA/Kepler
+  img: http://www.nasa.gov/sites/default/files/styles/image_card_4x3_ratio/public/thumbnails/image/452banimated_1280x720_360degrees.gif
+
+- title: Hurricane Patricia
+  img: https://c2.staticflickr.com/6/5628/22391427392_97df509cdc_b.jpg
+  attrib: Copyright 2015 EUMETSAT
+
+- title: Charon and the Small Moons of Pluto
+  img: http://www.seti.org/sites/default/files/pluto-moon-family-560px.jpg
+  attrib:  NASA/JHUAPL/SwRI
+
 - title: When Worlds Collide
-  attrib: Aaron Geller/Northwestern University
+  attrib: Aaron Geller/Northwest University
   img: https://vault.northwestern.edu/amg416/public_html/AMG_JH_FR_collision_image.8K.final.jpeg
 
 - title: Dynamical Evolution of Star Clusters
   img: http://faculty.wcas.northwestern.edu/aaron-geller/myimages/AGeller_StarCluster_300dpi.jpg
-  attrib: Aaron Geller/Northwestern University
+  attrib: Aaron Geller/Northwest University
   
 - title: Supernova Type Ia Simulation
   attrib: FLASH Center for Computational Science
