@@ -1,3 +1,7 @@
+- title: Saturn's Moon Thethys Imaged By Cassini
+  attrib: NASA/JPL-Caltech/Space Science Institute
+  img: http://saturn.jpl.nasa.gov/multimedia/images/raw/casJPGBrowseS91/W00095528.jpg
+
 - title: Early Galaxies More Efficient at Making Stars, Hubble Survey Reveals
   attrib: NASA, ESA, A. Koekemoer and the CANDELS science team
   img: http://mcdonaldobservatory.org/sites/default/files/images/news/gallery/CANDELS-GOODS-field.png
@@ -26,14 +30,6 @@
   img: http://www.seti.org/sites/default/files/pluto-moon-family-560px.jpg
   attrib:  NASA/JHUAPL/SwRI
 
-- title: When Worlds Collide
-  attrib: Aaron Geller/Northwest University
-  img: https://vault.northwestern.edu/amg416/public_html/AMG_JH_FR_collision_image.8K.final.jpeg
-
-- title: Dynamical Evolution of Star Clusters
-  img: http://faculty.wcas.northwestern.edu/aaron-geller/myimages/AGeller_StarCluster_300dpi.jpg
-  attrib: Aaron Geller/Northwest University
-  
 - title: Supernova Type Ia Simulation
   attrib: FLASH Center for Computational Science
   img: http://flash.uchicago.edu/site/gallery/stills/Supernovae/DDT/ASCFlashCenter_DDT_8km63_FLAMEDENS.jpg
@@ -104,14 +100,6 @@
 - title: The Center of the Milky Way (Near-Infrared)
   img: http://cdn.eso.org/images/large/eso0846a.jpg
   attrib: ESO/S. Gillessen et al.
-
-- title: View of Aurora Borealis from ISS
-  img: http://i.imgur.com/SmuLa1u.gif
-  attrib: NASA
-
-- title: View of Aurora Borealis from ISS
-  img: http://i.imgur.com/SmuLa1u.gif
-  attrib: NASA
 
 - title: View of Aurora Borealis from ISS
   img: http://i.imgur.com/SmuLa1u.gif
