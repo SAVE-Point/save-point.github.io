@@ -1,3 +1,39 @@
+- title: Pluto's Close-up, Now in Color
+  attrib: NASA/JHUAPL/SwRI
+  img: http://www.nasa.gov/sites/default/files/thumbnails/image/color-swath-use-12-10-15_closeup.jpg
+  
+- title: The Globular Cluster Terzan 1
+  attrib: NASA & ESA, Acknowledgement: Judy Schmidt
+  img: http://cdn.spacetelescope.org/archives/images/screen/potw1550a.jpg
+  
+- title: Rotating Ceres 
+  attrib: Dawn, JPL
+  img: http://i.giphy.com/12TXxLCkHzh9ra.gif
+  
+- title: Simulating the formation of the Moon
+  attrib: New Scientist
+  img: http://i.giphy.com/p2VcJs6K1U4IU.gif
+
+- title: Magnificent Eruption
+  attrib: NASA/ESA
+  img: http://i.giphy.com/ALYGEhQqhn5GE.gif
+  
+- title: Texas Astronomer Solves Mystery of Born Again Stars with Hubble Space Telescope
+  attrib: Natalie Gosnell, McDonald Observatory; NASA/ESA, A. Feild (STScI)
+  img: http://mcdonaldobservatory.org/sites/default/files/images/news/gallery/PR2015-43_Birth-of-a-Blue-Straggler_Gosnell.jpg
+  
+- title: Texas Astronomer Solves Mystery of Born Again Stars with Hubble Space Telescope
+  attrib: Natalie Gosnell, McDonald Observatory; NASA/ESA, A. Feild (STScI)
+  img: http://mcdonaldobservatory.org/sites/default/files/images/news/gallery/PR2015-43_Birth-of-a-Blue-Straggler_Gosnell.jpg
+
+- title: Texas Astronomer Solves Mystery of Born Again Stars with Hubble Space Telescope
+  attrib: Natalie Gosnell, McDonald Observatory; NASA/ESA, A. Feild (STScI)
+  img: http://mcdonaldobservatory.org/sites/default/files/images/news/gallery/PR2015-43_Birth-of-a-Blue-Straggler_Gosnell.jpg
+  
+- title: High School Student Helps Discover New Planet
+  attrib: Stefano Meschiari, McDonald Observatory
+  img: http://mcdonaldobservatory.org/sites/default/files/images/news/gallery/HD32963_SM.png
+
 - title: Saturn's Moon Thethys Imaged By Cassini
   attrib: NASA/JPL-Caltech/Space Science Institute
   img: http://saturn.jpl.nasa.gov/multimedia/images/raw/casJPGBrowseS91/W00095528.jpg
@@ -22,56 +58,18 @@
   attrib: NASA/Kepler
   img: http://www.nasa.gov/sites/default/files/styles/image_card_4x3_ratio/public/thumbnails/image/452banimated_1280x720_360degrees.gif
 
-- title: Hurricane Patricia
-  img: https://c2.staticflickr.com/6/5628/22391427392_97df509cdc_b.jpg
-  attrib: Copyright 2015 EUMETSAT
-
 - title: Charon and the Small Moons of Pluto
   img: http://www.seti.org/sites/default/files/pluto-moon-family-560px.jpg
   attrib:  NASA/JHUAPL/SwRI
-
-- title: Supernova Type Ia Simulation
-  attrib: FLASH Center for Computational Science
-  img: http://flash.uchicago.edu/site/gallery/stills/Supernovae/DDT/ASCFlashCenter_DDT_8km63_FLAMEDENS.jpg
 
 - title: Star Trails at McDonald Observatory
   attrib: R. Livermore
   img: http://save-point.io/extras/star-trails.jpg
 
-- title: Outbursts From a Newborn Star
-  attrib: ESO/M. McCaughrean
-  img: http://cdn.eso.org/images/screen/potw1541a.jpg
-
-- title: "Pluto's Big Moon Charon Reveals a Colorful and Violent History"
-  attrib: NASA/JHUAPL/SwRI
-  img: http://www.nasa.gov/sites/default/files/styles/full_width/public/thumbnails/image/nh-charon-neutral-bright-release.jpg
-
-- title: "Tycho's Supernova Remnant: NASA'S Chandra Finds New Evidence on Origin of Supernovas"
-  attrib: NASA/CXC/Chinese Academy of Sciences/F. Lu et al
-  img: http://chandra.harvard.edu/photo/2011/tycho2/tycho2.jpg
-
 - title: High-resolution Ceres images from the Dawn mission
   attrib: NASA/JPL-Caltech/UCLA/MPS/DLR/IDA
   img: https://d262ilb51hltx0.cloudfront.net/max/2000/1*y9kXjSWoWBm7WcLQDSIYMw.jpeg
 
-- title: Burnt Orange Moon
-  attrib: McDonald Observatory / Frank Cianciolo
-  img: http://40.media.tumblr.com/ca48295087a808e7bde84796cbe25dc3/tumblr_inline_nveiadXueG1qjkl22_1280.jpg
-
-- title: Supermoon Eclipse in Washington
-  attrib: NASA/Aubrey Gemignani
-  img: http://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/21587048120_28e23c8329_o.jpg
-  
-- title: NASA Confirms Evidence That Liquid Water Flows on Today's Mars
-  attrib: NASA/JPL/University of Arizona
-  img: http://www.nasa.gov/sites/default/files/thumbnails/image/15-195_perspective_2.jpg
-
-- title: "Perplexing Pluto: New Snakeskin Image and More from New Horizons"
-  attrib: NASA/JHUAPL/SWRI
-  img: http://www.nasa.gov/sites/default/files/thumbnails/image/snakeskin_detail.png
-- title: Hubble Zooms in on Shrapnel from an Exploded Star
-  img: http://imgsrc.hubblesite.org/hu/db/images/hs-2015-29-a-xlarge_web.jpg
-  attrib: NASA, ESA, and the Hubble Heritage Team (STScI/AURA)
 
 - title: Hubble Sees a Galactic Sunflower (M63)
   img: http://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/hubble_friday_09102015.jpg
